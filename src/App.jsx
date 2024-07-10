@@ -44,7 +44,7 @@ function App() {
 
   return (
     <div className="App bg-[#1D1D25] min-h-screen h-max text-white poppins-regular text-lg md:text-2xl py-1 md:py-8">
-      <h1 className='text-5xl poppins-extrabold text-[#F9D88B] my-8'>Car Search</h1>
+      <h1 className='text-5xl poppins-extrabold text-[#FFDE59] my-8'>Car Search</h1>
       <div className='flex md:flex-row flex-col md:mx-auto mx-5 my-2 w-auto  max-w-[50rem]'>
         <label htmlFor="make" className='place-content-center md:text-end text-center px-8 basis-7/12'>Manufacturer</label>
         <input type='text' className='px-4 py-2 text-white bg-[#282834] col-span-2 rounded-md md:w-full' onChange={(event) => {
@@ -98,13 +98,13 @@ function App() {
           <option value="4wd">Four-Wheel Drive (4WD)</option>
         </select>
       </div>
-      <button onClick={getCarsInfo} className='bg-[#F9D88B] rounded-lg py-4 px-8 my-8 font-semibold text-black'>Fetch Car Info</button>
+      <button onClick={getCarsInfo} className='bg-[#FFDE59] rounded-lg py-4 px-8 my-8 font-semibold text-black'>Fetch Car Info</button>
       {displayInfo && cars.length==0 && <h1 className='font-semibold text-3xl'>No record found</h1>}
       <div id='result' className='py-4'>
         {displayInfo && cars.length!=0 && (
           <div className='text-lg md:text-xl'>
             {cars.map((info, index) => (
-              <div key={index} className='flex flex-col md:flex-row bg-[#282834] my-8 mx-16 rounded-3xl gap-8'>
+              <div key={index} className='flex flex-col md:flex-row bg-[#282834] my-8 mx-4 md:mx-16 rounded-3xl gap-8'>
                 <div className=' mx-4 rounded-lg py-4 px-8 basis-6/12 flex flex-row'>
                   <button onClick={() => handleAngleChange(-4)}>
                     <FontAwesomeIcon icon={faCaretLeft} size='2x' className='basis-1/6' style={{ color: "#ffffff" }} />
