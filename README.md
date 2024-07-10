@@ -6,6 +6,7 @@ Made a website where the user can search car information
 # PC
 ![Screenshot](screenshot/input-pc.png)
 ![Screenshot](screenshot/result-pc.png)
-#Mobile
+
+# Mobile
 ![Screenshot](screenshot/input-mobile.jpg)
 ![Screenshot](screenshot/result-mobile.jpg)
