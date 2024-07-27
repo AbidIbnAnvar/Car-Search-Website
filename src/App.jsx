@@ -73,7 +73,7 @@ function App() {
       </div>
       <div className='flex md:flex-row flex-col md:mx-auto mx-5 my-2 w-auto  max-w-[50rem]'>
         <label htmlFor="fuel_type" className='place-content-center md:text-end text-center px-8 basis-7/12'>Fuel Type</label>
-        <select name="fuel_type" id="fuel_type" className=' px-4 py-2  bg-[#282834] rounded-md col-span-2 md:w-full' onChange={(e)=>setDrive(e.target.value)}>
+        <select name="fuel_type" id="fuel_type" className=' px-4 py-2  bg-[#282834] rounded-md col-span-2 md:w-full' onChange={(e)=>setFuelType(e.target.value)}>
           <option value="none" selected disabled hidden>Select Fuel Type</option>
           <option value="gas">Petrol</option>
           <option value="diesel">Diesel</option>
@@ -90,7 +90,7 @@ function App() {
       </div>
       <div className='flex md:flex-row flex-col md:mx-auto mx-5 my-2 w-auto  max-w-[50rem]'>
         <label htmlFor="drive" className='place-content-center md:text-end text-center px-8 basis-7/12'>Drive Type</label>
-        <select name="drive" id="drive" className=' px-4 py-2  bg-[#282834] rounded-md col-span-2 md:w-full' onChange={(e)=>setFuelType(e.target.value)}>
+        <select name="drive" id="drive" className=' px-4 py-2  bg-[#282834] rounded-md col-span-2 md:w-full' onChange={(e)=>setDrive(e.target.value)}>
           <option value="none" selected disabled hidden>Select Drive Type</option>
           <option value="fwd">Front-Wheel Drive (FWD)</option>
           <option value="rwd">Rear-Wheel Drive (RWD)</option>
