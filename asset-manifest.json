@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/car-website/static/css/main.b1c75da4.css",
+    "main.js": "/car-website/static/js/main.2eef1dcd.js",
+    "static/js/453.8680dfd1.chunk.js": "/car-website/static/js/453.8680dfd1.chunk.js",
+    "index.html": "/car-website/index.html",
+    "main.b1c75da4.css.map": "/car-website/static/css/main.b1c75da4.css.map",
+    "main.2eef1dcd.js.map": "/car-website/static/js/main.2eef1dcd.js.map",
+    "453.8680dfd1.chunk.js.map": "/car-website/static/js/453.8680dfd1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b1c75da4.css",
+    "static/js/main.2eef1dcd.js"
+  ]
+}
