@@ -28,7 +28,7 @@ function App() {
       const cars = await fetchCars(params);
       setCars(cars);
       setDisplayInfo(true);
-      if(cars.length!=0){document.getElementById('result').scrollIntoView({behavior:'smooth'});}
+      if(cars.length!==0){document.getElementById('result').scrollIntoView({behavior:'smooth'});}
     } catch (error) {
       console.log('Error Occurred:', error);
     }
@@ -99,9 +99,9 @@ function App() {
         </select>
       </div>
       <button onClick={getCarsInfo} className='bg-[#FFDE59] rounded-lg py-4 px-8 my-8 font-semibold text-black'>Fetch Car Info</button>
-      {displayInfo && cars.length==0 && <h1 className='font-semibold text-3xl'>No record found</h1>}
+      {displayInfo && cars.length===0 && <h1 className='font-semibold text-3xl'>No record found</h1>}
       <div id='result' className='py-4'>
-        {displayInfo && cars.length!=0 && (
+        {displayInfo && cars.length!==0 && (
           <div className='text-lg md:text-xl'>
             {cars.map((info, index) => (
               <div key={index} className='flex flex-col md:flex-row bg-[#282834] my-8 mx-4 md:mx-16 rounded-3xl gap-8'>
