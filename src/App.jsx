@@ -10,7 +10,7 @@ function App() {
   const [make, setMake] = useState("");
   const [model, setModel] = useState("");
   const [fuelType, setFuelType] = useState("");
-  const [year, setYear] = useState(2023);
+  const [year, setYear] = useState(2024);
   const [transmission, setTransmission] = useState("");
   const [drive, setDrive] = useState("");
   const [angle, setAngle] = useState(25);
